@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
                     return Observable.just(getGist());
                 }
                 catch (IOException e){
-                    return null;
+                    return Observable.error(e);
                 }
             }
         });
