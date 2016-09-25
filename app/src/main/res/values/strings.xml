@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">RxApp</string>
+    <string name="issues">Connection issues</string>
+    <string name="rx_app">Rx App</string>
 </resources>
